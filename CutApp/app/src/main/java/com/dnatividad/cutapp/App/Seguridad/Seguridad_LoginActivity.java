@@ -7,18 +7,10 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 //import android.support.v7.app.AlertDialog;
 //import android.support.v7.app.AppCompatActivity;
-import com.dnatividad.cutapp.CatalogoActivity;
 import com.dnatividad.cutapp.App.Citas.Citas_Admin_MisCitasActivity;
-import com.dnatividad.cutapp.ContactenosActivity;
-import com.dnatividad.cutapp.App.Citas.Citas_Cliente_MisCitasActivity;
-import com.dnatividad.cutapp.MisPedidosActivity;
-import com.dnatividad.cutapp.App.Servicios.Servicios_Admin_MisServiciosActivity;
 import com.dnatividad.cutapp.App.Citas.Citas_Cliente_ListadoServiciosSeleccionarActivity;
-import com.dnatividad.cutapp.App.Nosotros.Nosotros_Cliente_NosotrosActivity;
 import com.dnatividad.cutapp.R;
 import com.dnatividad.cutapp.App.Citas.Citas_Cliente_RegistrarCitaActivity;
-import com.dnatividad.cutapp.App.Servicios.Servicios_Admin_RegistrarServicioActivity;
-import com.dnatividad.cutapp.UbicanosActivity;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Status;
@@ -272,110 +264,11 @@ public class Seguridad_LoginActivity extends AppCompatActivity implements Google
     public boolean onOptionsItemSelected(MenuItem item){
         int id= item.getItemId();
 
-        if(id ==R.id.item_login){
-            Toast.makeText(this,"Login", Toast.LENGTH_SHORT).show();
-            Login();
-        }
-        else if (id ==R.id.item_registroUsuarios){
-            Toast.makeText(this,"Registrar usurio", Toast.LENGTH_SHORT).show();
-            RegistrarUsuario();
-        }
-        else if (id ==R.id.item_nosotros){
-            Toast.makeText(this,"Nosotros", Toast.LENGTH_SHORT).show();
-            Nosotros();
-        }
-        else if (id ==R.id.item_contactenos){
-            Toast.makeText(this,"Contactenos", Toast.LENGTH_SHORT).show();
-            Contactenos();
-        }
-        else if (id ==R.id.item_ubicanos){
-            Toast.makeText(this,"Ubícanos", Toast.LENGTH_SHORT).show();
-            Ubicanos();
-        }
-        else if (id ==R.id.item_registroCitas){
-            Toast.makeText(this,"Catalogo", Toast.LENGTH_SHORT).show();
-            Catalogo();
-        }
-        else if (id ==R.id.item_misCitas){
-            Toast.makeText(this,"Mis Pedidos", Toast.LENGTH_SHORT).show();
-            MisPedidos();
-        }
-        else if (id ==R.id.item_registroServicios){
-            Toast.makeText(this,"Reg. Producto", Toast.LENGTH_SHORT).show();
-            reg_producto();
-        }
-        else if (id ==R.id.item_misServicios){
-            Toast.makeText(this,"Mis Productos", Toast.LENGTH_SHORT).show();
-            MisProductos();
-        }
-        else if (id ==R.id.item_reporteCitas){
-            Toast.makeText(this,"Mis Pedidos", Toast.LENGTH_SHORT).show();
-            Reportes();
-        }
         return super.onOptionsItemSelected(item);
     }
 
     //region Navegacion
         //Navegacion de los botones del menu
-        public void Login(){
-            Intent login = new Intent(this, Seguridad_LoginActivity.class);
-            startActivity(login);
-        }
-
-        public void RegistrarUsuario(){
-            Intent registrarusuario = new Intent(this, Seguridad_RegistrarUsuarioActivity.class);
-            startActivity(registrarusuario);
-        }
-
-        public void Nosotros(){
-            Intent nosotros = new Intent(this, Nosotros_Cliente_NosotrosActivity.class);
-            startActivity(nosotros);
-        }
-
-        public void Contactenos(){
-            Intent contactenos = new Intent(this, ContactenosActivity.class);
-            startActivity(contactenos);
-        }
-
-        public void Ubicanos(){
-            Intent ubicanos = new Intent(this, UbicanosActivity.class);
-            startActivity(ubicanos);
-        }
-
-        public void Catalogo(){
-            Intent Catalogo = new Intent(this, CatalogoActivity.class);
-            startActivity(Catalogo);
-        }
-
-        public void MisPedidos(){
-            Intent mispedidos = new Intent(this, MisPedidosActivity.class);
-            startActivity(mispedidos);
-        }
-
-        public void reg_producto(){
-            Intent producto = new Intent(this, Servicios_Admin_RegistrarServicioActivity.class);
-            startActivity(producto);
-        }
-
-        public void MisProductos(){
-            Intent misproducto = new Intent(this, Servicios_Admin_MisServiciosActivity.class);
-            startActivity(misproducto);
-        }
-
-        public void Reportes(){
-            Intent reporte = new Intent(this, Citas_Cliente_RegistrarCitaActivity.class);
-            startActivity(reporte);
-        }
-
-        public void MisCitas(){
-            Intent miscitas = new Intent(this, Citas_Cliente_MisCitasActivity.class);
-            startActivity(miscitas);
-        }
-
-        public void CitasCliente(){
-            Intent miscitas = new Intent(this, Citas_Admin_MisCitasActivity.class);
-            startActivity(miscitas);
-        }
 
         public void reg_citas(){
             Intent registroCitas = new Intent(this, Citas_Cliente_RegistrarCitaActivity.class);
@@ -385,6 +278,16 @@ public class Seguridad_LoginActivity extends AppCompatActivity implements Google
         public void listadoServiciosEscoger(){
             Intent registroCitas = new Intent(this, Citas_Cliente_ListadoServiciosSeleccionarActivity.class);
             startActivity(registroCitas);
+        }
+
+        public void CitasCliente(){
+            Intent miscitas = new Intent(this, Citas_Admin_MisCitasActivity.class);
+            startActivity(miscitas);
+        }
+
+        public void RegistrarUsuario(){
+            Intent registrarusuario = new Intent(this, Seguridad_RegistrarUsuarioActivity.class);
+            startActivity(registrarusuario);
         }
 
     @Override
