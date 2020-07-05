@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:enabled="true"
+        android:icon="@drawable/logo_pelo"
+        android:title="Las Rositas"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item_login"
+        android:title="@string/opc_login"
+        android:visible="false"/>
+    <item
+        android:id="@+id/item_registroUsuarios"
+        android:title="@string/opc_registrarUsuario"
+        android:visible="false"/>
+    <item
+        android:id="@+id/item_contactenos"
+        android:title="@string/opc_contactenos"
+        android:visible="false"/>
+    <item
+        android:id="@+id/item_ubicanos"
+        android:title="@string/opc_ubicanos"
+        android:visible="false"/>
+    <item
+        android:id="@+id/item_registroCitas"
+        android:title="@string/opc_registrarCitas"
+        android:visible="false"/>
+    <item
+        android:id="@+id/item_misCitas"
+        android:title="@string/opc_misCitas"
+        android:visible="false"/>
+    <item
+        android:id="@+id/item_registroServicios"
+        android:title="@string/opc_registrarServicios"
+        android:visible="false"/>
+    <item
+        android:id="@+id/item_misServicios"
+        android:title="@string/opc_misServicios"
+        android:visible="false"/>
+    <item
+        android:id="@+id/item_reporteCitas"
+        android:title="@string/opc_reporteCitas"
+        android:visible="false"/>
+    <item
+        android:id="@+id/item_citasPorCalificar"
+        android:title="@string/opc_citasPorCalificar"
+        android:visible="false"/>
+    <item
+        android:id="@+id/item_misCalificaciones"
+        android:title="@string/opc_misCalificaciones"
+        android:visible="false"/>
+    <item
+        android:id="@+id/item_nosotros"
+        android:title="@string/opc_nosotros"
+        android:visible="false"/>
+    <item
+        android:id="@+id/item_nosotrosEdicion"
+        android:title="@string/opc_nosotrosEdicion"
+        android:visible="false"/>
+    <item
+        android:id="@+id/item_cerrarSesion"
+        android:title="@string/opc_cerrarSesion"
+        android:visible="false"/>
+</menu>

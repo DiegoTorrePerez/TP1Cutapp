@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">CutApp</string>
+
+    <string name="opc_login">Login</string>
+    <string name="opc_registrarUsuario">Registrar</string>
+    <string name="opc_nosotros">Nosotros</string>
+    <string name="opc_nosotrosEdicion">Edición Datos Peluqiería</string>
+    <string name="opc_contactenos">Contáctenos</string>
+    <string name="opc_ubicanos">Ubícanos</string>
+    <string name="opc_citas">Citas</string>
+    <string name="opc_registrarCitas">Registrar Cita</string>
+    <string name="opc_misCitas">Mis Citas</string>
+    <string name="opc_registrarServicios">Reg. Servicios</string>
+    <string name="opc_misServicios">Mis Servicios</string>
+    <string name="opc_reporteCitas">Reporte de Mis Citas</string>
+    <string name="opc_citasPorCalificar">Citas por Calificar</string>
+    <string name="opc_misCalificaciones">Mis Calificaciones</string>
+    <string name="opc_cerrarSesion">Cerrar Sesión</string>
+
+    <!-- Login Activity -->
+    <string name="text_usuario">Usuario ó Correo</string>
+    <string name="text_password">Password</string>
+    <string name="boton_ingresar">INGRESAR</string>
+    <string name="boton_registrarse">Registrarse</string>
+
+    <!-- Pedidos Activity -->
+    <string name="Titulo">Registro de Citas</string>
+    <string name="titulo_pedido">Pedido N°</string>
+    <string name="codigo">Cód PRO - </string>
+    <string name="Producto">Producto</string>
+    <string name="Ingredientes">Ingredientes</string>
+
+    <string name="fechaCita">Fecha de Cita</string>
+    <string name="Dia">Día</string>
+    <string name="mes">Mes</string>
+    <string name="Año">Año</string>
+    <string name="Porciones">Porciones</string>
+    <string name="sabor">Sabor</string>
+    <string name="Dedicatoria">Dedicatoria de la torta</string>
+    <string name="Mensaje">Información adicional</string>
+    <string name="txt_Dedicatoria">Dedicatoria...</string>
+    <string name="txt_Mensaje">Datos adicional...</string>
+    <string name="boton_registrarCita">Registrar Cita</string>
+    <!-- itempedido Layout -->
+    <string name="separador1">****DATOS DEL CLIENTE****</string>
+    <string name="separador2">****DETALLE PEDIDO****</string>
+    <string name="lbl_tituloPorciones">N° Porciones</string>
+    <string name="lbl_tituloSabor">Sabor</string>
+    <string name="lbl_tituloDedicatoria">Dedicatoria</string>
+    <string name="lbl_tituloInfoAdicional">Informacion Adicional</string>
+    <string name="lblUsuarioDireccion">Dirección</string>
+    <string name="lblUsuarioApellido">Apellido</string>
+    <string name="lblUsuarioNombre">Cliente :</string>
+    <string name="lblUsuarioTelefono">Teléfono</string>
+    <string name="lblUsuarioFechNac">Fecha de Nacimiento Año/Mes/Día</string>
+    <string name="lblUsuarioCorreo">Email</string>
+
+
+    <!-- Registrar Usuario Activity -->
+    <string name="US_lbl_titulo">CREAR CUENTA</string>
+    <string name="US_lbl_correo">Email</string>
+    <string name="US_txt_email">example@hotmail.com</string>
+    <string name="US_lbl_password">Password</string>
+    <string name="US_txt_clave">Password</string>
+
+    <string name="US_lbl_nombre">Nombres</string>
+    <string name="US_txt_nombre">Ingresa tu nombre</string>
+    <string name="US_lbl_apellido">Apellido</string>
+    <string name="US_txt_apellido">Ingresa tu apellido</string>
+    <string name="US_lbl_apellidoPaterno">Apellido Paterno</string>
+    <string name="US_txt_apellidoPaterno">Ingresa tu apellido paterno</string>
+    <string name="US_lbl_apellidoMaterno">Apellido Materno</string>
+    <string name="US_txt_apellidoMaterno">Ingresa tu apellido materno</string>
+    <string name="US_lbl_direccion">Dirección</string>
+    <string name="US_txt_direccion">Dirección</string>
+    <string name="US_lbl_celular">Celular</string>
+    <string name="US_txt_celular">Ingresa tu N° celular</string>
+    <string name="US_lbl_fecha_nacimiento">FECHA DE NACIMIENTO</string>
+    <string name="datePicker1">datePicker1</string>
+
+
+    <string name="Registrar">Registrar</string>
+    <string name="Cancelar">Cancelar</string>
+
+    <string name="lbl_contac_titulo1">CONTÁCTENOS</string>
+    <string name="lbl_contac_titulo2">Mándanos cómo desea sorprender a esa persona especial</string>
+    <string name="txt_contac_mensaje">Tu mensaje</string>
+    <string name="lbl_contac_titulo3">FOTO</string>
+    <string name="btn_contac_adjuntar">Adjuntar</string>
+    <string name="btn_contac_enviar">Enviar</string>
+
+    <string name="Catalogo">Catálogo de Productos</string>
+    <string name="Citas">Citas</string>
+    <string name="CitasPorCalificar">Citas Por Calificar</string>
+    <string name="Servicios">Mis Servicios</string>
+    <string name="ServiciosCliente">Seleccione un Servicio</string>
+    <string name="Reporte">Reporte de Mis Citas</string>
+    <string name="MisCalificaciones">Mis Calificaciones</string>
+    <string name="descripcionEmpresa">La idea de "Las Rositas", nació como agradecimiento para de todas esas personas que siempre estuvieron con nosotros en las buenas y malas. Es así como la idea de ofrecer nuestros obsequios fue creciendo para llegar a mas personas. </string>
+
+    <!--actualizar pedidos -->
+    <string name="Act_lbl_idCita">Cód. Cita</string>
+    <string name="Act_lbl_idServicio">Cód. Servicio</string>
+    <string name="Act_lbl_titulo">Servicio</string>
+    <string name="Act_lbl_ingr">Ingredientes</string>
+    <string name="Act_lbl_fec_cita">Fecha de Cita</string>
+    <string name="Act_lbl_horaCita">Hora de Cita</string>
+    <string name="Act_lbl_fechaCita">Fecha de Cita</string>
+    <string name="Act_lbl_cod_usu">Usuario</string>
+    <string name="Act_lbl_nom">Nombres</string>
+    <string name="Act_lbl_nombreServicio">Servicio</string>
+    <string name="Act_lbl_dir">Direccion</string>
+    <string name="Act_lbl_Telf">Teléfono</string>
+    <string name="Act_lbl_fec_nac">Nacimiento</string>
+    <string name="Act_lbl_porc">Porciones : </string>
+    <string name="Act_lbl_sab">Sabor : </string>
+    <string name="Act_lbl_mens">Mensaje de la Torta</string>
+    <string name="Act_lbl_inf">Información adicional</string>
+    <string name="Act_lbl_estado">Estado</string>
+    <string name="Act_lbl_titulo_estado">Cambiar Estado</string>
+    <string name="Act_btn_actualizar">Actualizar Estado</string>
+    <string name="Act_btn_anular">Anular Cita</string>
+
+
+    <string name="Act_FechaEntrega">Fecha Nacimiento :</string>
+    <string name="Act_FechaCita">Fecha :</string>
+    <string name="Act_idCita">Cita N° </string>
+    <string name="Act_idServicio">Cód. SERV - </string>
+    <string name="Act_codUsuario">Cód. Usuario :</string>
+
+    <string name="Act_Nombre">Nombre :</string>
+    <string name="Act_nombreServicio">Servicio :</string>
+    <string name="Act_Direccion">Direccion :</string>
+    <string name="Act_Telf">Teléfono :</string>
+    <string name="Act_estado">Estado Actual :</string>
+    <string name="Act_entrega">Entrega :</string>
+
+
+    <!-- registrar producto -->
+    <string name="reg_servicio_lbl_titulo_principal">Registrar Servicio</string>
+    <string name="reg_servicio_lbl_idServicio">Cod. Serv -</string>
+    <string name="reg_servicio_txt_idServicio">Código</string>
+    <string name="reg_servicio_lbl_nombreServicio">Nombre del servicio :</string>
+    <string name="reg_servicio_txt_nombreServicio">Nombre del servicio</string>
+    <string name="reg_servicio_lbl_descripcionServicio">Descripción :</string>
+    <string name="reg_servicio_txt_descripcionServicio">Descripción del Servicio</string>
+    <string name="reg_servicio_btn_registrar">Registrar Servicio</string>
+    <string name="reg_servicio_lbl_costoServicio">Precio S/. </string>
+    <string name="reg_servicio_txt_costoServicio">0.00</string>
+    <string name="crud_servicio_imgbutton_camara">Camara</string>
+    <string name="crud_servicio_imgbutton_examinar">Examinar</string>
+
+    <!-- actualizar y anular producto -->
+    <string name="act_servicio_lbl_titulo_principal">Actualizar Servicios</string>
+    <string name="act_servicio_lbl_idServicio">Cód. Serv</string>
+    <string name="act_servicio_lbl_nombreServicio">Nombre del Servicio : </string>
+    <string name="act_servicio_txt_nombreServicio">Nombre del Servicio </string>
+    <string name="act_servicio_lbl_descripcionServicio">Descripción : </string>
+    <string name="act_servicio_txt_descripcionServicio">Descripción del Servicio</string>
+    <string name="act_servicio_lbl_costoServicio">Precio S/ : </string>
+    <string name="act_servicio_txt_costoServicio">0.00 </string>
+    <string name="act_servicio_btn_actualizar">Actualizar Servicio </string>
+    <string name="act_servicio_btn_anular">Eliminar Servicio </string>
+
+    <string name="lbl_confirmacion_cerrar_sesion">¿Está seguro de cerrar la sesión?</string>
+    <string name="lbl_confirmacion_registrar_cita">¿Está seguro de registrar la cita?</string>
+    <string name="lbl_confirmacion_eliminar_servicio">¿Está seguro de eliminar el servicio?</string>
+    <string name="lbl_confirmacion_anular_cita">¿Está seguro de anular la cita?</string>
+    <string name="lbl_confirmacion_si">Sí</string>
+    <string name="lbl_confirmacion_no">No</string>
+
+    <string name="string_server">http://cutapp.atwebpages.com/index.php/</string>
+    <!-- titulo fato -->
+    <string name="lbl_Fotografia">Envíanos una fotografía del módelo de la torta que desearías para tu ser querido.. Nosotros con gusto te la diseñamos.</string>
+
+    <string name="lbl_nombrePeluqueria">Nombre de Peluquería</string>
+    <string name="lbl_horarioAtencionPeluqueria">Horario de Atención</string>
+    <string name="lbl_direccionPeluqueria">Dirección</string>
+    <string name="lbl_telefonoPeluqueria">Teléfono</string>
+    <string name="lbl_horarioAtencionInicioPeluqueria">Hora de Inicio de Atención</string>
+    <string name="lbl_horarioAtencionFinPeluqueria">Hora de Fin de Atención</string>
+    <string name="lbl_descripcionPeluqueria">Acerca de Nosotros</string>
+    <string name="lbl_calificacionCita">Registre su calificación</string>
+    <string name="lbl_ubicacionPeluqueria">Nuestra Ubicación</string>
+
+    <string name="urlOrigin">http://10.0.2.2:8080</string>
+    <string name="hexColorPrimario">#5E394C</string>
+    <string name="hexColorSecundario">#B38524</string>
+
+</resources>
