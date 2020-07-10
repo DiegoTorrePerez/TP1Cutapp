@@ -33,12 +33,9 @@
         <activity android:name=".App.Servicios.Servicios_Admin_ActualizarServicioActivity" />
         <activity android:name=".App.Servicios.Servicios_Admin_RegistrarServicioActivity" />
         <activity android:name=".App.Citas.Citas_Admin_ActualizarCitasActivity" /> <!-- Notificaciones -->
-        <activity android:name=".UbicanosActivity" /> <!-- Google Maps -->
-        <activity android:name=".CatalogoActivity" /> <!-- llave de google maps -->
+        <!-- Google Maps -->
+        <!-- llave de google maps -->
         <activity android:name=".App.Citas.Citas_Cliente_RegistrarCitaActivity" />
-        <activity android:name=".CitasClienteActivity" />
-        <activity android:name=".MisPedidosActivity" />
-        <activity android:name=".ContactenosActivity" />
         <activity android:name=".App.Seguridad.Seguridad_RegistrarUsuarioActivity" />
         <activity android:name=".App.Seguridad.Seguridad_LoginActivity" />
         <activity android:name=".App.Nosotros.Nosotros_Cliente_NosotrosActivity" />
