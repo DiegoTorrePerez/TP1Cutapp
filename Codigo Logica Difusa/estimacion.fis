@@ -1,0 +1,73 @@
+[System]
+Name='estimacion'
+Type='mamdani'
+Version=2.0
+NumInputs=4
+NumOutputs=1
+NumRules=15
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='(TE)_Experiencia_del_Equipo_de_Desarrollo'
+Range=[0 12]
+NumMFs=3
+MF1='Junior':'trapmf',[0 0.9 1.8 2.7]
+MF2='Intermediate':'trapmf',[1.9 3.6 4.4 6.2]
+MF3='Senior':'trapmf',[5.3 7.5 8.4 11.7]
+
+[Input2]
+Name='(TC)_Complejidad_de_Tarea'
+Range=[0 6]
+NumMFs=5
+MF1='Muy_Facil':'trapmf',[0.3 1.1 1.3 2.2]
+MF2='Moderado':'trapmf',[1.7 2.6 2.9 3.9]
+MF3='Muy_Complejo':'trapmf',[4.2 4.8 5.1 6]
+MF4='Facil':'trapmf',[0.7 1.7 2 2.9]
+MF5='Complejo':'trapmf',[2.8 3.8 4 4.7]
+
+[Input3]
+Name='(TS)_Tamaño_de_Tarea'
+Range=[0 1.18]
+NumMFs=4
+MF1='Pequeño':'trapmf',[0.1416 0.236 0.3894 0.5192]
+MF2='Amplio':'trapmf',[0.46 0.6 0.73 0.85]
+MF3='Extra_Amplio':'trapmf',[0.7 0.88 0.99 1.18]
+MF4='Mediano':'trapmf',[0.2478 0.4484 0.5192 0.708]
+
+[Input4]
+Name='(EA)_Exactitud_de_Estimación'
+Range=[-2 2]
+NumMFs=3
+MF1='Subestimado':'trapmf',[-1.8 -1 -0.8 -0.17]
+MF2='Sobre_Estimado':'trapmf',[0.22 0.78 1.2 1.99]
+MF3='Bien_Estimado':'trapmf',[-0.36 -0.07 0.02 0.36]
+
+[Output1]
+Name='Punto_Estimado_de_Historia'
+Range=[0 4]
+NumMFs=4
+MF1='Fácil':'trapmf',[0 0.2 0.4 1]
+MF2='Muy_Complejo':'trapmf',[1.7 2.3 3 4]
+MF3='Complejo':'trapmf',[1.2 1.4 2 2.5]
+MF4='Intermedio':'trapmf',[0.5 0.8 1 1.5]
+
+[Rules]
+2 2 3 3, 4 (1) : 1
+3 5 4 1, 1 (1) : 1
+-3 3 3 2, 3 (1) : 1
+0 3 1 3, 1 (1) : 1
+2 5 3 3, 4 (1) : 1
+-1 3 3 3, 1 (1) : 1
+3 3 0 3, 3 (1) : 1
+3 3 0 2, 2 (1) : 1
+0 4 0 3, 1 (1) : 1
+0 3 3 1, 2 (1) : 1
+0 3 3 2, 2 (1) : 1
+1 2 3 0, 4 (1) : 1
+2 2 0 1, 3 (1) : 1
+0 2 0 3, 4 (1) : 1
+0 3 4 3, 3 (1) : 1
